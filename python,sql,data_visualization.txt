@@ -1,0 +1,101 @@
+# python operators
+    # arithmetic +, -, *, / , %, //, **
+    # relational < <= > >= == !=
+    # logical
+    # membership
+# typecasting
+# conditional statements: if, if else, if elif else
+# loops
+    # for
+    # while 
+# range
+# break (terminate the current for/while loop)
+# continute (skip the current iteration)
+# user defined functions
+    # reversing strings
+    # factorial calculation
+    # average marks of a student
+    # identifying palindrome strings
+    # Recursion for factorial and nCr code
+# slicing, indexing in lists, tuples, dictionaries and strings
+# OOP 
+    # class, object, inheritance
+    # constructor (init)
+# Time Complexity (memorise all time complexity definition and how to calculate)
+# git and github
+    # version control systems
+    # git & various git products
+    # git commands - commit, log, checkout, stash, save, add, revert, fork, ammend, squash, clone, init, branch, push
+    # publishing process & publishing your own website.
+
+
+
+
+-----------------------------------------------------------------------------------------------
+
+
+# Important Topics:
+    -- Difference between SQL / NoSQL (not important from the exam pov)
+    -- ETL vs ELT Process (not important from the exam pov)
+    -- The Three V's (DW Design) (not important from the exam pov)
+    -- OLTP / OLAP databases with examples 
+    
+    -- Normalization 
+        -- what is normalization: process of organizing the data in the DB
+        -- 5 types of forms (we covered 3)
+            -- 1NF: If it contains an atomic value
+                -- cells can not have multiple values
+                -- each row uniquely identifiable 
+            -- 2NF: If it is in the 1NF and all non-key attributes are fully functional
+                dependent on the primary key
+                -- None of the attributes should be partially dependent on the primary key.
+            -- 3NF: If it is in the 2NF no transition dependency exists.
+                -- Why:
+                    -- to reduce data duplication
+                    -- achieve data integrity
+                -- A relation is in 3NF if it holds atleast one of the following conditions
+                for every non-trivial function dependency X --> Y
+                    -- X is a super key
+                    -- Y is a prime attribute in each element of Y is a part of some candidate key
+    -- ACID Model 
+        -- Atomicity: All or nothing, either complete success or a failture. If partially successful and fail
+            in between, revert to original state.
+        -- Consistency: State of the DB should be consistent before and after and opetaion. Any operation should not impact another record/attribute
+        -- Isolation: Two operations are always isolated/independent from each other. 
+        -- Durability: Data is never lost in case of a failure
+    -- Facts/Dimensions & Data Schemas
+        -- Facts: any quantititave piece of information eg sale, always stored in facts tables - number of FK relations with dimension tables
+        -- Dimensions: describe the objects in the fact tables
+        
+        -- Data Schemas: Skeletal structure of the database:
+                -- physical DB Schema : actual storage of the data: files, indices etc
+                -- logical DB Schema : defines the logical contraints to be applied on the data: tables, views, integrity constraints
+    -- ERD Diagrams 
+        -- Connections between tables
+        -- Types of connections & Symbols used
+        -- Just know the Crows Foot notation
+    -- Keys:
+        -- Primary Key
+        -- Foreign Key
+        -- Composite Key
+    -- SQL Statement Structure 
+    -- SQL Operators 
+        -- Arithmetic: +, -, *, /, %
+        -- Comparison: =, !=, <>, >, <, >=, <=
+        -- Logical: AND, ALL, ANY, BETWEEN, EXISTS, IN, NOT, LIKE, OR, UNIQUE
+    -- DDL & DML commands  (queries given, not expected to code)
+        -- create, insert, update, delete, alter, drop, truncate, rename, round
+    -- Aggregate functions: count, mean
+    -- Group By
+    -- Nested Queries
+    -- Join & its Types
+
+# Visualization using Tableau
+
+    -- Different version of Tableau
+    -- Data Visualization
+        -- What type of chart is used to show which kind of data
+        -- Show Me (details on hover should be clearly known, memorize the measures/dimensions for each type)
+
+    -- What are dimensions and measures
+    -- Various aggregation functions in Tableau
